@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	welcome := "Welcome user input" //type declaration not i,p in walrus operator
+	welcome := "Welcome user input" //type declaration not imp in walrus operator
 	fmt.Println(welcome)
 	reader := bufio.NewReader(os.Stdin) // this line says = to read(from standard input/out)
 	fmt.Println("Enter Rating of this code: ")

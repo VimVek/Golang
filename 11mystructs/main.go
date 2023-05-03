@@ -10,6 +10,9 @@ func main() {
 	fmt.Println(Vivek)
 	fmt.Printf("VIveks details are: %+v\n", Vivek)
 	fmt.Printf("Name is %v, Age is %v \n", Vivek.Name, Vivek.Age)
+
+	Kush := Human{"Kush", "Male", 27, "Jaipur"}
+	fmt.Println(Kush)
 }
 
 // User has capital U as it is acting like a class or template that we will be using
@@ -19,4 +22,11 @@ type User struct {
 	Email  string
 	Status bool
 	Age    int
+}
+
+type Human struct {
+	Namer  string
+	Gender string
+	Age    int
+	Place  string
 }

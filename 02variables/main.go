@@ -25,13 +25,21 @@ func main() {
 	// Default value and some aliases
 	var anotherVar int
 	var anotherStn string
+	anotherVar = 123
+	anotherStn = "Hello I am String"
 	fmt.Println(anotherVar)
 	fmt.Println(anotherStn)
 	fmt.Printf("Variable is of type: %T \n", anotherVar)
 	fmt.Printf("Variable is of type: %T \n", anotherStn)
 
+	anotherVar = 234
+	fmt.Println(anotherVar)
+
 	//implicit type (it auto assign type according to value but we cant change it later on)
 	var website = "hieloo.in"
+	fmt.Println(website)
+
+	website = "changing vivek.in"
 	fmt.Println(website)
 	//cant be change to website = 3 as it is string
 

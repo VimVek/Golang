@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("SLices")
+	fmt.Println("Slices")
 	var fruitlist = []string{}
 	//var fruitlist = []string{"Tomato", "Pear"}
 	fmt.Printf("type of fruitlist is %T\n", fruitlist)
