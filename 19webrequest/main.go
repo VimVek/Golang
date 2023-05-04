@@ -24,6 +24,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	content := string(databyte)
+	content := string(databyte) //convert to string as it will be in byte form
 	fmt.Print("Data is: \n", content)
 }

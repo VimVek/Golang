@@ -30,7 +30,8 @@ func main() {
 	for _, val := range qparams {
 		fmt.Println("Param is: \n", val)
 	}
-	partsOfUrl := &url.URL{
+	//This is how we construct a string
+	partsOfUrl := &url.URL{ //& is important
 		Scheme: "https",
 		Host:   "www.udemy.com",
 		Path:   "/course/data-structures-and-algorithms-java/learn/lecture/28748718",
